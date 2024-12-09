@@ -9056,7 +9056,7 @@ Confusion matrix:
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Discussion-and-conclusion">Discussion and conclusion<a class="anchor-link" href="#Discussion-and-conclusion">¶</a></h2><p>All the models, NMF, k-means, Random Forest and SVM, worked. The supervised models had consistenlty very good accuracy, over &gt;95% most of the time.</p>
 <p>Non-negative Matrix Factorization performed fairly well, with accuracy typically between 60% and 90%.</p>
-<p>In some cases the K-means model did not perform well, having accuracy of 50%. In those cases it was biased towards certain categories.</p>
+<p>In some cases the K-means model did not perform well, having accuracy of 50%. In those cases it was biased towards certain categories. Overall, k-means had similar or slightly lower accuracy than the NMF.</p>
 <p>Both, NMF and k-means, seemed to have difficulties when there were a lot of items in the data set. With smaller data sets they perfomed at the same level as the supervised models. Supervised models perfomed well regardless of the number of items in the data set.</p>
 <h3 id="Training-time">Training time<a class="anchor-link" href="#Training-time">¶</a></h3><p>This data set is fairly large so just loading and cleaning the data takes a few minutes.</p>
 <h4 id="Detailed-categories">Detailed categories<a class="anchor-link" href="#Detailed-categories">¶</a></h4><p>Clustering less than 10 detailed categories is fairly fast. Most of the steps taking less than a few seconds on a laptop.</p>
